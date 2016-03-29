@@ -36,13 +36,6 @@ li a:hover {
     background-color: green;
 
 }
-#logo {
-  width: 300px;
-  height: 100px;
-  position:absolute;  
-  left:5px;
-  top:5px;
-  }
   
 #homebox {
 	padding:10px;
