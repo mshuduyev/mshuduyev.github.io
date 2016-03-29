@@ -1,25 +1,94 @@
+/* Het navigatiemenu is met behulp van de tutorials op http://www.w3schools.com/ in elkaar gezet*/
+body{
+	font-family: Gill Sans Extrabold, sans-serif;
+	font-size:18px;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	text-indent: 50px;
+	font-size:20px;
+}
+p:first-line {
+    color: green;
+    text-transform: uppercase;
+}
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    padding: 10px;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
-
-li {
-    float: left;
-}
-
 li a {
+	float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 180px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: black;
-}
-.active {
     background-color: red;
 }
+.active {
+    background-color: green;
+
+}
+#logo {
+  width: 300px;
+  height: 100px;
+  position:absolute;  
+  left:5px;
+  top:5px;
+  }
+  
+#homebox {
+	padding:10px;
+	padding-left:20px;
+	margin:30px;
+	height: 50%;
+	width: 50%;
+    margin: 0 auto;
+	border: 2px solid #ff5512;
+	border-radius: 20px;
+	box-shadow: 0px 0px 9px #000000;
+}
+.homepaginabox {
+	width:10%;
+	height:20%;
+	display: inline-block;
+	padding:10px;
+	margin:90px;
+	text-align: center;
+	border: 2px solid #ff5512;
+	border-radius: 20px;
+	box-shadow: 0px 0px 9px #000000;
+	position: relative;
+    left: 20%;
+}
+
+.boxen {
+	width:400px;
+	height;200px;
+	display: inline-block;
+	position: relative;
+    left: 22%;
+	padding:10px;
+	margin:50px;
+	text-align: center;
+	border: 2px solid #ff5512;
+	border-radius: 20px;
+	box-shadow: 0px 0px 9px #000000;
+}
+#deliverablebox {
+	width:99%;
+	height:20%;
+	display: inline-block;
+	padding:10px;
+
+	text-align: center;
+	border: 2px solid #ff5512;
+	border-radius: 20px;
+	box-shadow: 0px 0px 9px #000000;
